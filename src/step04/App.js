@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <Navigation />
         <Routes>
-          <Route path="/" element={<Home/>}></Route>
+          <Route path="/ys_movie_react/" element={<Home/>}></Route>
           <Route path="/about" element={<About/>}></Route>
           <Route path="/detail" element={<Detail/>}></Route>
         </Routes>
